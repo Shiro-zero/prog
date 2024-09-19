@@ -2,9 +2,9 @@
 
 #### cool stuf
 
-[auto ai ](python\tchat\ai.py " nead to run an ai in local host")
+[auto ai ](https://github.com/Shiro-zero/prog/blob/nouvelle-fonctionnalit%C3%A9/python/tchat/ai.py " nead to run an ai in local host")
 
 [art
-]()
+](https://github.com/Shiro-zero/prog/blob/nouvelle-fonctionnalit%C3%A9/python/Art/art.ipynb " nead jupiter note book ")
 
-[gps]()
+[gps](https://github.com/Shiro-zero/prog/blob/nouvelle-fonctionnalit%C3%A9/python/gps/Untitled-1.ipynb)
