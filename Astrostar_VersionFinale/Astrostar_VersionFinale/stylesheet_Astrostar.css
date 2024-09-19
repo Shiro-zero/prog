@@ -1,0 +1,810 @@
+@charset "UTF-8"; /* La feuille de style est encodée en Unicode UTF-8 */
+
+/*******************************************************************
+/* Fichier ...................... : stylesheet_Astrostar.css
+/* Type ......................... : Document CSS
+/* Titre ........................ : Astrostar CSS
+/* Auteur ....................... : Les volontaires du Web
+/* Date de création ............. : 10 novembre 2022
+/*******************************************************************/
+
+
+/* ************************** */
+/* La mise en forme générale */
+/* ************************ */
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: #3b1d8f;
+    max-width: 100%;
+}
+
+body {
+    background-color: #f0eff3;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+h2, h3, h4 {
+    font-family: 'Gravitas One', cursive;
+    margin: 10px 0 ;
+    padding: 10px 0 ;
+}
+
+h2 {
+    text-align: center;
+}
+
+p, ul, ol, figcaption {
+    font-family: 'Arima Madurai', cursive;
+    font-size:17px;
+}
+
+  /* ************************** */
+ /* La mise en forme du header */
+/* ************************** */
+
+
+header{
+    background-image: url(./images/banniereAstrostar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin:0 0 40px 0;
+}
+
+header h1 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 90px;
+}
+
+h1 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 90px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+header h1, header p {
+    text-align: center;
+    color: #ab8dd4;
+    margin:auto;
+    z-index: 1;
+    line-height:1em;
+}
+
+/* ************************ */
+/* La mise en forme du nav */
+/* ********************** */
+
+
+nav{
+    width: 80%;
+  }
+  
+  nav li {
+    list-style: none !important;;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration:none;
+  }
+  nav img{
+    width: 50px;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    list-style: none;
+    line-height: 44px;
+    float:left;
+  }
+  
+  nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  li a {
+    font-family: 'Arima Madurai', cursive;
+    padding: 10px 50px 10px 50px;
+    margin: 5px; 
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #8f3daf;
+    border-bottom: 2px solid #8f3daf;
+    
+   }
+  
+   nav ul li ul {
+    display: none;
+   }
+   nav ul li:hover ul {
+    z-index: 99999;
+    display:list-item !important;
+    position:absolute;
+    margin-left: -10px;
+    background-color: #d5cae4;
+   }
+   nav ul li:hover ul li {
+    float:none;
+   }
+
+
+
+/* ************************************** */
+/* La mise en forme du bouton de contact */
+/* ************************************ */
+
+#contact {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 3;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #d5cae4;
+    border: 2px solid #8f3daf;
+    text-decoration: none;
+    color:#8f3daf;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    box-shadow: 3px 3px #8f3daf;
+}
+
+#contact:hover {
+    box-shadow: 3px 3px 5px #8f3daf;
+}
+
+
+/* ********************************************************************* */
+/* La mise en forme des zone de textes centrées dans la page d'histoire */
+/* ******************************************************************* */
+
+
+#ailleurs, #presentation, #recap {
+    width: 70%;
+    margin: auto;
+    border: none;
+    text-align: center;
+}
+
+#presentation h2, #ailleurs h4, #recap h2 {
+    border-bottom: solid 0.5px #3b1d8f;
+
+}
+
+/* **************************************************************8***** */
+/* La mise en forme des boutons (liens ancres) dans la page d'histoire */
+/* ****************************************************************** */
+
+#boutons {
+    margin: 20px;
+    padding: 10px;
+    background-color: #d5cae4;
+    border: 1px solid #8f3daf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#boutons p {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+#boutons div {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: baseline; 
+    justify-content: space-around;   
+}
+
+#boutons figure {
+    width:250px;
+    display: inline-block;
+}
+
+#boutons figcaption {
+    margin: 0 0 20px 0;
+}
+
+#boutons figure a {
+    display: block;
+}
+
+#boutons img {
+    width: 100%;
+    border: 1px solid #8f3daf;
+    box-shadow: 3px 3px 10px #8f3daf;
+    border-radius: 5px;
+}
+
+#boutons img:hover{
+    box-shadow: 3px 3px 10px #3b1d8f;
+}
+
+
+/* ********************************************************************** */
+/* La mise en forme de la section d'informations dans la page d'histoire */
+/* ******************************************************************** */
+
+.section {
+    margin: 100px 0 50px 0;
+}
+
+#histoire h3 {
+    text-align: left;
+}
+
+#histoire #informations article:first-of-type {
+    margin:20px 0 20px 0;
+}
+
+
+#histoire #informations article {
+    margin: 50px 0 50px 0;
+    padding: 0 30px;
+    border: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-style: double;
+}
+
+#histoire #exemplesMeso {
+    font-style: italic;
+    padding:10px 0 5px 0;
+}
+
+#histoire #informations ul {
+    margin:0 0 0 40px;
+}
+
+#histoire #renaissance p {
+    margin: 0  0 25px 0;
+}
+
+#histoire #renaissance div {
+    display: flex;
+}
+
+#histoire #renaissance div img {
+    width: 50%;
+    margin: 0 30px;
+}
+
+#histoire #renaissance div img:hover {
+    box-shadow: 3px 3px 10px #3b1d8f;
+}
+
+#histoire #renaissance p:last-of-type {
+    font-style: italic;
+}
+
+
+
+/* ************************************************************ */
+/* La mise en forme de la récapitulation de l'histoire astrale */
+/* ********************************************************** */
+
+#recap {
+    text-align:start;
+    border:solid;
+    border-style: double;
+    border-radius: 5px;
+    padding: 0 40px;
+}
+
+#recap h2 {
+    padding:30px;
+}
+
+#recap ul, #recap ol {
+    margin:30px 100px;
+}
+
+#recap ul {
+    margin: 0 20px;
+    border:0;
+
+}
+
+/* ********************************************************************************************************* */
+/* La mise en forme de la zone de texte qui relie à la page "astrologie d'ailleurs" dans la page d'histoire */
+/* ******************************************************************************************************* */
+
+#histoire #ailleurs{
+    padding: 0 20px 20px 20px;
+    border: solid 0.5px #3b1d8f;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #3b1d8f;
+}
+
+#histoire #ailleurs a {
+    font-weight: bold;
+}
+
+#histoire #ailleurs a:hover {
+    color:#8f3daf;
+    font-size: 18px;
+}
+
+/* ************************************* */
+/* La mise en forme de la page d'équipe */
+/* *********************************** */
+
+#equipe table {
+    font-family: 'Arima Madurai', cursive;
+    padding:20px 0;
+    margin :auto;
+    width:70%;
+}
+
+#equipe th {
+    font-size:23px;
+}
+
+#equipe tr, #equipe th, #equipe td {
+    padding:10px;
+    margin :10px;
+    border: solid 0.75px;
+    border-radius: 3px;
+}
+
+#equipe table img {
+    width:100px;
+}
+
+#equipe td {
+    text-align: center;
+}
+
+#equipe td a:hover {
+    color:#8f3daf;
+    text-shadow: 2px 2px 2px #d5cae4;
+}
+
+
+
+/* Mise en forme Aurore */
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+      
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+      
+.signeszod a{
+    text-decoration:none
+}
+
+.containe {
+    padding: 10px 16px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid purple;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 25px 50px 75px 100px;
+}
+
+.block img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.489);
+    margin: 25px 50px 75px 100px;
+}
+
+.block p {
+    
+    text-align: justify;
+    margin: 25px 50px 75px 100px;
+
+}
+
+.button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5cae4;
+    border: 1px solid purple;
+}
+
+
+h2#astroh {
+    text-align: center;
+}
+h4#astroh {
+    text-align: center;
+}
+
+section#presentation{
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+
+section#signes {
+    margin: 5%;
+    background-color: #d5cae4;
+    border: 1px solid #8f3daf;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section#signes img {
+    width: 80%;
+    display: flexbox;
+    border: 1px solid purple;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 200px;
+    margin: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+/*Mise en forme Carine */
+
+
+.debut{
+    display: flex;
+}
+
+.debut img{
+  display: inline-block;
+  width: 15%;
+  height: 72%;
+}
+
+.debut h1{
+  font-family: 'Aguafina Script', cursive;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.accueil {
+    padding: 10px;
+    margin:10px;
+}
+
+p {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 17px;
+  
+}
+
+h2, h3 {
+  font-family: 'Gravitas One', cursive;
+  text-align: center;
+}
+
+section#presentation{
+  width: 80%;
+  text-align: center;
+  margin:auto;
+}
+
+section#description {
+  margin: 2%;
+  background-color: #d5cae4;
+  border: 1px solid #8f3daf;
+  box-shadow: 3px 4px 10px #8f3daf;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section#description img {
+  border: 1px solid purple;
+  box-shadow: 3px 4px 10px #8f3daf;
+  border-radius: 20px;
+  margin: 1%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section#descriptionbis {
+    margin: 2%;
+    background-color: #d5cae4;
+    border: 1px solid #8f3daf;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+section#descriptionbis img {
+    border: 1px solid purple;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 20px;
+    margin: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+ .navigation {
+  display: flex;
+  padding:10px;
+  text-align: right;
+ }
+
+  
+.accueil article{
+  margin:2%;
+  background-color: #d5cae4;
+  border: 1px solid #8f3daf;
+  box-shadow: 3px 4px 10px #8f3daf;
+  border-radius: 10px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+  
+ .accueil h2{
+  text-align: center;
+ }
+
+ .accueil strong {
+  font-family: 'Aguafina Script', cursive;
+  color: #8f3daf;
+  text-shadow: 2px 2px 2px #c8c0ea;
+  font-size: 30px;
+}
+.accueil div img{
+width: 140px;
+}
+
+.row2{
+  display: flex;
+}
+
+.row2 img{
+  width: 70%;
+  margin: 50px;
+}
+
+.card{
+  display: inline-block;
+  text-align: center;
+  
+}
+.dates{
+  padding: 10px 12px;
+}
+
+.intro p{
+  margin:2%;
+  background-color: #c8c0ea;
+  border: 1px solid #8f3daf;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.amitie article p{
+  margin:2%;
+  background-color: #c8c0ea;
+  border: 1px solid #8f3daf;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.amour article p{
+  margin:2%;
+  background-color: #c8c0ea;
+  border: 1px solid #8f3daf;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+section#descriptioncontact {
+    margin: 2%;
+    padding: 2%;
+    background-color: #d5cae4;
+    border: 1px solid #8f3daf;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section#descriptioncontact img {
+    width: 10%;
+    border: 1px solid #8f3daf;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 200px;
+    
+}
+body main section#descriptioncontact ul{
+    list-style: none;
+
+}
+
+
+section#presentation2{
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+
+section#description2 {
+    margin: 2%;
+    padding: 2%;
+    display: flexbox;
+    background-color: #d5cae4;
+    border: 1px solid #8f3daf;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+section#description2 img {
+    width: 7%;
+    border: 1px solid #8f3daf52;
+    box-shadow: 3px 4px 10px #8f3daf;
+    border-radius: 10px;
+
+}
+
+body main section#description2 ul{
+    list-style: none;
+}
+
+
+
+.tab:target{
+    display: block;
+}
+.tab{
+    display: none;
+}
+
+
+
+/* Mise en forme Maxime */
+
+
+
+.culture {
+    width: 100%;
+}
+
+.culture ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.culture li{
+    list-style-type: none;
+    width: 25%;
+    margin: 10px 10px;
+}
+
+.culture li > a {
+    padding: 10px 0;
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #d5cae4;
+    text-align: center;
+    border: 1px solid #8f3daf;
+    border-radius: 10px;
+}
+
+
+
+.culture {
+    width: 100%;
+}
+
+.culture ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.culture li{
+    list-style-type: none;
+    width: 25%;
+    margin: 10px 10px;
+}
+
+.culture li > a {
+    padding: 10px 0;
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #d5cae4;
+    text-align: center;
+    border: 1px solid #8f3daf;
+    border-radius: 10px;
+}
+
+.chinoiseastro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chinoiseastro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.chinoiseastro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.chinoiseastro article{
+width: 45%;
+padding: 10px;
+margin: 10px;
+background-color: #d5cae4;
+border:1px solid #8f3daf;
+border-radius: 10px;
+box-shadow: 3px 4px 10px #8f3daf;
+}
+
+.chinoiseastro article img{
+    width: 50%;
+}
+
+/* *************************** */
+/* La mise en forme du footer */
+/* ************************* */
+
+footer {
+    background-image: url(./images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+    margin: 50px 0 0 0;
+}
+
+footer aside{
+    display: block;
+    display: flex;
+}
+
+footer #groupe {
+    justify-content: right;
+}
+
+footer p {
+    color:#c8c0ea;
+}

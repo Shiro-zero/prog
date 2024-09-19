@@ -1,0 +1,17 @@
+/*====================================
+AUTEUR : Delacote mateo
+PROJET :
+NOM DU FICHIER :
+DATE :
+DESCRIPTION :
+====================================*/
+#include <iostream>
+#include <conio.h>
+#include <fstream>
+#include <Windows.h>
+using namespace std; 
+
+int main()
+{
+
+}

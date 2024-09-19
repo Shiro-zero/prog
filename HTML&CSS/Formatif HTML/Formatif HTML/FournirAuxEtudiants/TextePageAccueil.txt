@@ -1,0 +1,57 @@
+Mon site Web en construction
+
+Accueil
+L'image du jour
+Mon CV
+Mes liens favoris en ordre de préférence
+Un vidéo qui me fait sourire
+
+Tout savoir sur ce site
+
+Accueil
+
+Bienvenue sur mon site Web ! Vous y trouverez du contenu multimédia, mon CV et des liens.
+
+Pourquoi ce site ?
+
+J'ai mis en place ce site pour me pratiquer à concevoir un site Web. J'en suis à apprendre le HTML, mais éventuellement j'utiliserai le CSS et le JavaScript sur cette page Web. Elle deviendra donc encore plus attrayante !
+
+Bonne navigation à tous!
+
+Quelques infos sur moi
+
+Tableau résumé
+Nom
+Deschamps
+Prénom
+Jacob
+Emplois
+Étudiant
+Études
+Primaire
+2009 - 2015
+Secondaire
+2015 - 2020
+Cégep
+2020 - en cours
+Ernière modification
+26 mai 2020
+
+L'image du jour
+
+Mes liens favoris en ordre de préférence
+
+https://www.creatiks.com.au
+https://www.ping-u.com.my
+https://www.theuselessweb.com
+
+Un vidéo qui me fait sourire
+https://www.youtube.com/watch?v=LTunhRVyREU&ab_channel=SabedMako
+
+Version online :
+
+Version offline :
+
+L'audio seulement :
+
+Site conçu par : Jacob Deschamps
